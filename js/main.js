@@ -1,3 +1,8 @@
-$(document).ready(function () { 
-    $('#bs-example-navbar-collapse-1  a').fadeOut(2000);
- });
+
+ var nb = 10;
+ function b(nb) {
+     var z = 10;
+     var q = z + nb;
+     return q;
+ }
+ alert(b(12));
