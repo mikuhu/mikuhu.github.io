@@ -423,9 +423,10 @@ body {
 
 /*glyphicon-triangle-bottom*/
 #topDown {
+  position: absolute;
   font-size: 50px;
   color: #E0D8C5;
-  top: 85vh;
+  top: 90vh;
 }
 #topDown:hover {
   color: white;
@@ -568,7 +569,7 @@ body {
 /*END Animation header*/
 
 
-/*MIKUHU logo*//*
+/*MIKUHU logo*/
 .navbar-brand {
 
   font-size: 50px;
@@ -585,4 +586,26 @@ body {
     text-shadow: -400px 0 tomato,
                  400px 0 yellowgreen,
                  0 0 skyblue;
-    }*/
+    }
+
+/*menu button*/
+.glyphicon-th-large {
+      position: fixed;
+    top: 5vh;
+    left: 5vh;
+    font-size: 50px;
+
+  animation: glyphicon-th-large 2s linear infinite;
+}
+
+
+@keyframes glyphicon-th-large {
+  0% { color: #E0D8C5; }
+  50% { color: rgb(223, 117, 35); }
+  100% { color: rgb(183, 77, 3); }
+}
+
+.glyphicon-th-large:hover {
+  cursor: pointer;
+  color: #E0D8C5;
+}

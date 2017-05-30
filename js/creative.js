@@ -62,8 +62,16 @@
     });
 
 })(jQuery); // End of use strict
-/*
+
+/*Hide and show MENU*/
 $(document).ready(function () { 
-    $('#topDown').hover(
-        function () { $('#topDown').toggleClass('glyphicon-triangle-top') })
- });*/
+    $('#mainNav').hide();
+    $('.glyphicon-th-large').click(function () { 
+        $('.glyphicon-th-large').fadeOut(100);
+        $('#mainNav').fadeIn(1000); 
+    })
+    $('.glyphicon-eye-close').click(function () { 
+        $('#mainNav').fadeOut(100);
+        $('.glyphicon-th-large').fadeIn(1000); 
+    })
+ });
