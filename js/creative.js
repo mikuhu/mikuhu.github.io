@@ -74,4 +74,11 @@ $(document).ready(function () {
         $('#mainNav').fadeOut(100);
         $('.glyphicon-th-large').fadeIn(1000);
     })
+    
+});
+
+
+
+$(function() {
+	$('.simple_img_gallery').createSimpleImgGallery();
 });
