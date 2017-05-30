@@ -425,7 +425,7 @@ body {
 #topDown {
   font-size: 50px;
   color: #E0D8C5;
-  top: 90vh;
+  top: 85vh;
 }
 #topDown:hover {
   color: white;
@@ -568,7 +568,7 @@ body {
 /*END Animation header*/
 
 
-/*MIKUHU logo*/
+/*MIKUHU logo*//*
 .navbar-brand {
 
   font-size: 50px;
@@ -585,4 +585,4 @@ body {
     text-shadow: -400px 0 tomato,
                  400px 0 yellowgreen,
                  0 0 skyblue;
-    }
+    }*/
