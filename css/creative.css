@@ -411,6 +411,9 @@ img::-moz-selection {
   color: #E0D8C5;
   background: transparent;
 }
+body {
+  webkit-tap-highlight-color: #393536;
+}
 /*socialButtons*/
 #socialButtons img {
   width:50px; 
