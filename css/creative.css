@@ -411,9 +411,6 @@ img::-moz-selection {
   color: #E0D8C5;
   background: transparent;
 }
-body {
-  webkit-tap-highlight-color: #393536;
-}
 /*socialButtons*/
 #socialButtons img {
   width:50px; 
@@ -426,7 +423,7 @@ body {
   position: absolute;
   font-size: 50px;
   color: #E0D8C5;
-  top: 90%;
+  top: 85vh;
 }
 #topDown:hover {
   color: white;
