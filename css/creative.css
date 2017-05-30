@@ -474,6 +474,7 @@ img::-moz-selection {
 }
 .content__container__text {
   display: inline;
+  float: left;
   margin: auto;
   padding-top: auto;
 }
