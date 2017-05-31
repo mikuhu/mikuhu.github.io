@@ -76,9 +76,3 @@ $(document).ready(function () {
     })
     
 });
-
-
-
-$(function() {
-	$('.simple_img_gallery').createSimpleImgGallery();
-});
