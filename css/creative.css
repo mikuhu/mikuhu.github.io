@@ -426,10 +426,24 @@ img::-moz-selection {
   position: absolute;
   font-size: 50px;
   color: #E0D8C5;
-  top: 85vh;
+    animation-name: topDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 #topDown:hover {
   color: white;
+}
+
+@keyframes topDown{
+    0%   {top:90vh;}
+    50%   {top:93vh;}
+    100% {top:90vh;}
+}
+
+@media screen and (max-width: 1080px) {
+  #topDown {
+    font-size: 8vh;
+  }
 }
 
 /*Animation header START*/
