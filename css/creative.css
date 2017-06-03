@@ -483,28 +483,6 @@ img::-moz-selection {
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-.content__container__text {
-  display: inline;
-  float: left;
-  margin: auto;
-  padding-top: auto;
-}
-.content__container__list {
-  margin-top: 0;
-  padding-left: 110px;
-  text-align: left;
-  list-style: none;
-  -webkit-animation-name: change;
-  -webkit-animation-duration: 10s;
-  -webkit-animation-iteration-count: infinite;
-  animation-name: change;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-.content__container__list__item {
-  line-height: 40px;
-  margin: 0;
-}
 
 @-webkit-keyframes opacity {
   0%, 100% {
@@ -580,7 +558,7 @@ img::-moz-selection {
 /*MIKUHU logo*/
 .navbar-brand {
 
-  font-size: 50px;
+  font-size: xx-large;
   font-weight: normal;
   cursor: pointer;
   overflow: hidden;
