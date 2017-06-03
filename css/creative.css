@@ -422,7 +422,7 @@ img::-moz-selection {
 /*glyphicon-triangle-bottom*/
 #topDown {
   position: absolute;
-  font-size: 50px;
+  font-size: 4vh;
   color: #E0D8C5;
     animation-name: topDown;
     animation-duration: 2s;
