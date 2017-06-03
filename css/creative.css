@@ -434,16 +434,11 @@ img::-moz-selection {
   color: white;
 }
 
+/*Animaton down abd up*/
 @keyframes topDown{
-    0%   {top:90vh;}
-    50%   {top:93vh;}
-    100% {top:90vh;}
-}
-
-@media screen and (max-width: 1080px) {
-  #topDown {
-    font-size: 8vh;
-  }
+    0%   {top:85vh;}
+    50%   {top:88vh;}
+    100% {top:85vh;}
 }
 
 /*Animation header START*/
