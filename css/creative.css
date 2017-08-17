@@ -423,13 +423,13 @@ img::-moz-selection {
 #topDown {
   position: absolute;
   font-size: 4vh;
-  color: #E0D8C5;
+  color: #B74D03;
     animation-name: topDown;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 #topDown:hover {
-  color: white;
+  color: #B71F07;
 }
 
 /*Animaton down abd up*/
