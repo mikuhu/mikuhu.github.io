@@ -274,3 +274,11 @@ a:hover {
 #copyright a {
   color: #333;
 }
+
+
+@media screen and (max-width: 600px) {
+  .titleText h3 {
+    visibility: hidden;
+    display: none;
+  }
+}
