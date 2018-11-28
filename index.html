@@ -1,348 +1,237 @@
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>MainHostel - хостел в Ярославле</title>
+<!DOCTYPE html>
+<html lang="en">
 
-        
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-        
-        <!-- Main Style -->
-        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <title>Mikuhu project</title>
+    <!-- shake -->
+    <link rel="stylesheet" type="text/css" href="css/csshake.min.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Responsive Style -->
-        <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
 
-        <!--Icon Fonts-->
-        <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css" />
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+</head>
+
+<body id="page-top">
+    <!-- start preloader div -->
+    <div class="loaderArea">
+        <div class="loader"></div>
+    </div>
+    <!-- end preloader div -->
 
 
-        <!-- Extras -->
-        <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
-        <link rel="stylesheet" type="text/css" href="assets/extras/lightbox.css">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top ">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only" >Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    Mikuhu
+                </a>
+            </div>
 
-
-        <!-- jQuery Load -->
-        <script src="assets/js/jquery-min.js"></script>
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-      </head>
-
-    <body data-spy="scroll" data-offset="20" data-target="#navbar">
-    <!-- Nav Menu Section -->
-    <div class="logo-menu">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="50">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header col-md-3">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#home"><i class="fa fa-bed"></i> MainHostel</a>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#portfolio" style="font-size: x-large;">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact" style="font-size: x-large;">Find me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-
-        <div class="collapse navbar-collapse" id="navbar">
-                            <ul class="nav navbar-nav col-md-9 pull-right">
-                            <li class="active"><a href="#hero-area"><i class="fa fa-home"></i> Главная</a></li>
-                            <li><a href="#services"><i class="fa fa-cogs"></i> Особенности</a></li>
-                            <li><a href="#map"><i class="fa fa-map-marker"></i> На карте</a></li>
-                            <li><a href="#portfolio"><i class="fa fa-picture-o"></i> Галерея</a></li>
-                            <li><a href="#clients"><i class="fa fa-thumbs-o-up"></i> Отзывы</a></li>
-                            
-                            <li><a href="#about"><i class="fa fa-info"></i> О нас</a></li>
-                            <li><a href="#contact"><i class="fa fa-phone"></i> На связи</a></li>
-                            </ul>
-        </div>
-      </div>
+        <!-- /.container-fluid -->
     </nav>
-    </div>
-<!-- Nav Menu Section End -->
 
-<!-- Hero Area Section -->
+    <header>
 
-<section id="hero-area">
-<div class="container">
-    <div class="row">
-<div class="col-md-12">
-        <h1 class="title">Хостел с сервисом гостиницы!</h1>
-        <!-- <h2 class="subtitle">Начни своё знакомство с Ярославлем вместе с нами!</h2> -->
-
-        <img class="col-md-6 col-sm-6 col-xs-12 animated fadeInLeft" src="assets/img/hero/macbook.png" alt="">
-
-        <div class="col-md-6 col-sm-6 col-xs-12 titleText animated fadeInRight delay-0-5">
-        <h3>В шаговой доступности от ж/д вокзала «Ярославль Главный», находимся в самом центре города. Не стесняйтесь уточнять любые вопросы по тел:<b> 8(48-52)99-00-98</b></h3><br><br>
-        <a href="assets\price\User_Guide_Keenetic_Giga.pdf" download class="btn btn-common btn-lg">Наши цены!</a>
-        <!-- <a href="#" class="btn btn-primary btn-lg">Learn More</a> -->
-         </div>
+        <div class="header-content">
+            <div class="header-content-inner">
 
 
-        
-</div>
-
-    </div>
-</div>
-</section>
-
-<!-- Hero Area Section End-->
-
-
-
-<!-- Service Section -->
-
-<section id="services">
-<div class="container text-center">
-<div class="row">
-<h1 class="title">Почему у нас?</h1>
-<h2 class="subtitle"></h2>
-
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    <div class="service-item">
-    <!-- <img src="assets/img/services/responsive.png" alt=""> -->
-    <i class="fa fa-home  fa-5x" aria-hidden="true"></i>
-    <h3>Уютно</h3>
-    <p>Жилое помещение состоит из нескольких уютных и вместительных капсул, в которых есть все необходимое для комфортного отдыха.</p>
-    </div>
-    </div>
-
-
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    <div class="service-item">
-    <!-- <img src="assets/img/services/bs3.png" alt=""> -->
-    <i class="fa fa-globe fa-5x" aria-hidden="true"></i>
-    <h3>Удобное место</h3>
-    <p>В шаговой доступности от ж/д вокзала «Ярославль Главный», находимся в самом центре города</p>
-    </div>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-    <div class="service-item">
-    <!-- <img src="assets/img/services/free.png" alt=""> -->
-    <i class="fa fa-thumbs-o-up fa-5x" aria-hidden="true"></i>
-    <h3>Бонусы</h3>
-    <p>Душевые кабины, большой зал для чаепития, просмотра тв, wi-fi. Бесплатное хранение багажа, холодильник, парковка, горячий чай и ароматный кофе.</p>
-    </div>
-    </div>
-
-</div>
-</div>
- </section>
-<!-- Service Section End -->
-
-
-<!--Map section -->
-
-<section id="map">
-    <!-- <div class="container">
-    <div class="row">
-    <!-- <h1 class="title"></h1>
-    <h2 class="subtitle"></h2> 
-
-    <div class="col-md-12 col-sm-12"> -->
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A493ea466eab56ad415fab90c5b52b9c95f90ed369adfa775d6b99af6555e97c2&amp;width=100%25&amp;height=401&amp;lang=ru_RU&amp;scroll=true"></script>
-    <!-- </div>
-
-
-    </div>
-    </div>
-    </section> -->
-
-
-<!--End map section -->
-
-
-<!-- Portfolio Section -->
-
-    <section id="portfolio">
-    <div class="container">
-    <div class="row">
-    <h1 class="title">Галерея</h1>
-    <h2 class="subtitle"></h2>
-
-
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-    <div class="portfolio-item wow fadeInLeft" data-wow-delay=".5s">
-    <a href="#"><img src="assets/img/portfolio/img1.jpg" alt=""></a>
-    <div class="overlay">
-    <div class="icons">
-    <a data-lightbox="image1" href="assets/img/portfolio/img1.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
-    </div>
-    </div>
-    </div>
-    </div>
-
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-    <div class="portfolio-item wow fadeInLeft" data-wow-delay=".7s">
-    <a href="#"><img src="assets/img/portfolio/img2.jpg" alt=""></a>
-    <div class="overlay">
-    <div class="icons">
-    <a data-lightbox="image1" href="assets/img/portfolio/img2.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
-    </div>
-    </div>
-    </div>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-    <div class="portfolio-item wow fadeInLeft" data-wow-delay=".9s">
-    <a href="#"><img src="assets/img/portfolio/img3.jpg" alt=""></a>
-    <div class="overlay">
-    <div class="icons">
-    <a data-lightbox="image1" href="assets/img/portfolio/img3.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
-    </div>
-    </div>
-    </div>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="1.1s">
-    <div class="portfolio-item">
-    <a href="#"><img src="assets/img/portfolio/img4.jpg" alt=""></a>
-    <div class="overlay">
-    <div class="icons">
-    <a data-lightbox="image1" href="assets/img/portfolio/img4.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
-    </div>
-    </div>
-    </div>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="1.3s">
-    <div class="portfolio-item">
-    <a href="#"><img src="assets/img/portfolio/img5.jpg" alt=""></a>
-    <div class="overlay">
-    <div class="icons">
-    <a data-lightbox="image1" href="assets/img/portfolio/img5.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
-    </div>
-    </div>
-    </div>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="1.5s">
-    <div class="portfolio-item">
-    <a href="#"><img src="assets/img/portfolio/img6.jpg" alt=""></a>
-    <div class="overlay">
-    <div class="icons">
-    <a data-lightbox="image1" href="assets/img/portfolio/img6.jpg" class="preview"><i class="fa fa-search-plus fa-4x"></i></a>
-    </div>
-    </div>
-    </div>
-    </div>
-      
-    </div>
-    </div>
-    </section>
-<!-- Portfolio Section End -->
-
-
-<!-- Client Section -->
-    <section id="clients">
-    <div class="container">
-    <div class="row">
-
-    <h1 class="title">Отзывы</h1>
-    <h2 class="subtitle">Отзывы наших гостей о нас</h2>
-
-    <div class="wow fadeInDown">
-    <img class="col-md-3 col-md-3 col-sm-3 col-xs-12" src="assets/img/hero/macbook.png" alt="client-1">
-
-    <img class="col-md-3 col-md-3 col-sm-3 col-xs-12" src="assets/img/hero/macbook.png" alt="client-2">
-
-    <img class="col-md-3 col-md-3 col-sm-3 col-xs-12" src="assets/img/hero/macbook.png" alt="client-3">
-
-    <img class="col-md-3 col-md-3 col-sm-3 col-xs-12" src="assets/img/hero/macbook.png" alt="client-4">
-
-    </div>
-    </div>
-    </div>
-    </section>
-<!-- Client Section End -->
-
-
-<!-- About Section -->
-
-    <section id="about">
-    <div class="container">
-    <div class="row">
-    <h1 class="title">О нас</h1>
-    <h2 class="subtitle"></h2>
-
-    <div class="col-md-8 col-sm-12">
-    <p>
-        Если вы собираетесь в короткую бизнес-поездку или путешествуете, поселитесь в капсульный отель. Это весело, футуристично и в некоторых случаях даже экономно.
-        YarMainHostel приглашает посетить новый капсульный отель в г. Ярославле в шаговой доступности от ж/д вокзала «Ярославль Главный». Жилое помещение состоит из нескольких уютных и вместительных капсул, в которых есть все необходимое для комфортного отдыха. Мы предлагаем удобные и современные душевые кабины и туалетные комнаты. Большой зал для чаепития, просмотра тв, wi-fi. При желании организуем доставку еды по приемлемым ценам. В качестве приятного бонуса бесплатное хранение багажа, холодильник, парковка, горячий чай и ароматный кофе. Мы ждём вас и рады вам круглосуточно по адресу: г.Ярославль, ул. Ухтомского 17а. Не стесняйтесь уточнять любые вопросы по тел: <b>+79611577979</b>
-    </p>
-    </div>
-
-    <img class="col-md-4 col-md-4 col-sm-12 col-xs-12" src="assets/img/hero/macbook.png" alt="">
-
-    </div>
-    </div>
-    </section>
-<!-- About Section End -->
-
-
-
-<!-- Conatct Section -->
-    <section id="contact">
-    <div class="container text-center">
-    <div class="row">
-    <h1 class="title">Свяжитесь с нами</h1>
-
-    <h2 class="subtitle"></h2>
-
-    <div class="col-md-12 wow fadeInRight">
-    <!-- <div class="social-links">
-    <a class="social" href="#" target="_blank"> <i class="fa fa-vk"></i></a>
-    <a class="social" href="#" target="_blank"> <i class="fa fa-instagram"></i></a>
-    
-	</div> -->
-<div class="contact-info">
-        <p><i class="fa fa-phone"></i>  8(48-52)99-00-98</p>
-    <p><i class="fa fa-map-marker"></i> г.Ярославль, ул. Ухтомского 17а</p>
-     <p><i class="fa fa-envelope"></i> info@yandex.com</p>
-</div>
-    
-    </div>
-
-    </div>
-    </div>
-    </section>
-
-<!-- Conatct Section End-->
-
-
-    <div id="copyright">
-    <div class="container">
-    <div class="col-md-10"><p>© 2018 Все права защищены. Дизайн и разработка от <a href="http://mikuhu.tk">Михаила Кузнецова</a></p></div>
-    <div class="col-md-2">
-        <span class="to-top pull-right"><a href="#hero-area"><i class="fa fa-angle-up fa-2x"></i></a></span>
+            </div>
         </div>
-    </div>
-    </div>
-<!-- Copyright Section End-->
 
-        <!-- Bootstrap JS -->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <a href="#portfolio" class="page-scroll ">
+            <div id="topDown" class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></div>
+        </a>
 
-            <!-- Smooth Scroll -->
-                    <!-- Smooth Scroll -->
-        <script src="assets/js/smooth-scroll.js"></script>
-        <script src="assets/js/lightbox.min.js"></script>
+    </header>
 
-        <!-- All JS plugin Triggers -->
-        <script src="assets/js/main.js"></script>
-        <!--Fonts Awesome        -->
-        <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous"> -->
 
-    </body>
-    </html>
+
+    <!-- Images gallery block -->
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="guys.html" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive hvr-bounce-in" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded shake-opacity">
+                                    Guys
+                                </div>
+                                <div class="project-name">
+                                    Photosets of people
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="junk.html" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded shake-opacity">
+                                    Junk
+                                </div>
+                                <div class="project-name">
+                                    Like but don't know why
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="night.html" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded shake-opacity">
+                                    Night
+                                </div>
+                                <div class="project-name">
+                                    Inspires me a lot
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="views.html" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded shake-opacity">
+                                    Views
+                                </div>
+                                <div class="project-name">
+                                    Classical views
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="guys.html" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded shake-opacity">
+                                    Guys
+                                </div>
+                                <div class="project-name">
+                                    Photosets of people
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="guys.html" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded shake-opacity">
+                                    Guys
+                                </div>
+                                <div class="project-name">
+                                    Photosets of people
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END ------ Images gallery block -->
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row" id="socialButtons">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <br><br>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 shake-opacity"><a href="https://vk.com/mikuhu"><img src="../img/social/vk.svg" alt=""></a></div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 shake-opacity"><a href="https://www.instagram.com/km.se/"><img src="../img/social/instagram.svg" alt=""></a></div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 shake-opacity"><a href="https://www.youtube.com/user/applemuzuka"><img src="../img/social/youtube.svg" alt=""></a></div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 shake-opacity"><a href="https://twitter.com/mikuhu"><img src="../img/social/twitter.svg" alt=""></a></div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        $(window).on('load', function () {
+            $preloader = $('.loaderArea'),
+                $loader = $preloader.find('.loader');
+            $loader.fadeOut();
+            $preloader.delay(350).fadeOut('slow');
+        });
+
+    </script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
+</html>
