@@ -158,7 +158,7 @@ header {
   text-align: center;
   color: #fff;
 
-  animation: image 3s ease-in 2s 1 both alternate;
+  animation: image 3s ease-in 5s 1 both alternate;
 }
 
 @keyframes image {
