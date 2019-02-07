@@ -154,21 +154,21 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  /*background-image: url('../img/adidas.jpg');  /*../img/header.jpg*/
+  background-image: url('../img/bg1.jpg');  /*../img/header.jpg*/
   text-align: center;
   color: #fff;
 
   animation: image 3s ease-in 2s 1 both alternate;
 }
-
-@keyframes image {
+/*Animation of background image*/
+/* @keyframes image {
   0% {
     background-image: url('../img/bg2.jpg')
   }
   100% {
     background-image: url('../img/bg1.jpg')
   }
-}
+} */
 
 header .header-content {
   position: relative;
